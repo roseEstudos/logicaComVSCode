@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo jS - 02</title>
+</head>
+<body>
+    <h1>Substituindo um tipo de dados</h1>
+    <p id="demo">sou um paragráfo</p>
+
+    <button type="button" onclick="trocarTipo()">Mudar</button>
+    <script>
+        function trocarTipo(){
+            document.getElementById("demo").innerHTML = "<h2>Agora sou um subtítulo</h2>";
+        }
+    </script>
+</body>
+</html>
